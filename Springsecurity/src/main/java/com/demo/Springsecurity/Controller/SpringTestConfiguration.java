@@ -20,7 +20,7 @@ public class SpringTestConfiguration extends WebSecurityConfigurerAdapter {
               roles("USER").and().withUser("admin").password("admin").roles("ADMIN");
     }
 
-
+//THESE ARE THE REQUEST THAT ARE MAPPED TO THE USER AND ADMIN CREDENTIALS RESPECTIVELY
     @Override
     protected void configure(HttpSecurity http) throws Exception {
 
